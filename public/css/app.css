@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section#beggining {
+  background-image: url(/images/bg-header-teste.jpg?c592fb22923f34b81e5de471c734a7a4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: white !important;
+  height: 500px;
+}
+section#beggining h1 {
+  color: #ffffe1;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+section#o-que-e {
+  color: white;
+  background-image: linear-gradient(to bottom, #6ea5b6, #024a72);
+}
+section#o-que-e span {
+  font-style: italic;
+}
+
+section#o-que-fazer {
+  background-color: #6ea5b6;
+  overflow: hidden;
+}
+section#o-que-fazer h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+section#o-que-fazer h5 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+section#o-que-fazer p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+section#o-que-fazer img {
+  width: 100%;
+  max-height: 400px;
+}
+section#o-que-fazer #row-black {
+  background-color: black;
+  color: white;
+}
+section#o-que-fazer #row-black #previna-se-carrocel:hover h5 {
+  font-size: 3rem;
+}
+section#o-que-fazer #row-black #previna-se-carrocel:hover p {
+  font-size: 2rem;
+}
+section#o-que-fazer #row-black #previna-se-carrocel:hover img {
+  font-size: 40px;
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+section#perguntas-respostas {
+  background-image: linear-gradient(to bottom, #6ea5b6, #024a72);
+}
+section#perguntas-respostas h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+section#perguntas-respostas #accordionExample h2 {
+  color: white;
+}
+section#perguntas-respostas #accordionExample .card {
+  background-color: #024a72;
+  color: white;
+}
+
+footer {
+  height: 100px;
+}

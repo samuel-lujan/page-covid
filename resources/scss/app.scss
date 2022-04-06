@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+section#beggining {
+    background-image: url("../imagens/bg-header-teste.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 1) !important;
+    height: 500px;
+
+    h1 {
+        color: rgb(255, 255, 225);
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+}
+.mask {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+section#o-que-e{
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(110, 165, 182), rgba(2, 74, 114, 1));
+
+    span {
+        font-style: italic;
+    }
+}
+
+
+section#o-que-fazer{
+    background-color: rgb(110, 165, 182);
+    overflow: hidden;
+
+    h2 {
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    h5 {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    p {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+
+    img {
+        width: 100%;
+        max-height: 400px;
+
+    }
+
+    #row-black{
+        background-color: black;
+        color: white;
+
+        #previna-se-carrocel:hover {
+            h5 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+
+            img{
+                font-size: 40px;
+                opacity: .3;
+                filter: alpha(opacity=50);
+                transition: all 1s;
+                -webkit-transition: all 1s;
+            }
+
+        }
+
+    }
+
+}
+
+section#perguntas-respostas{
+    h2 {
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    background-image: linear-gradient(to bottom, rgb(110, 165, 182), rgba(2, 74, 114, 1));
+
+    #accordionExample {
+        h2 {
+            color: white;
+        }
+        .card {
+            background-color: rgba(2, 74, 114, 1);
+
+            color: white;
+        }
+    }
+}
+
+footer {
+    height: 100px;
+}
